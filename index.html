@@ -50,10 +50,22 @@ a:hover::before{
     transition: tramsform 0.5s ease;
     transform: scaleX(0);
 }
-    .color{
-        color: #025560;
-        color: #991fe6;
+@media screen and (max-width:600px){
+    .one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 36%;
     }
+    .one a{
+        font-size: 16px;
+        font-weight: 100;
+    }
+    body{
+        background-size: 80vh;
+        background-attachment: fixed;
+    }
+} 
 </style>
 <body>
     <div class="one">
